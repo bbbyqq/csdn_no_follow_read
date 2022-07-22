@@ -25,6 +25,9 @@
         cursor: pointer;
         height: 24px;
         line-height: 24px;
+    }
+    .btn-no-follow:hover {
+        background: #ff6e6e;
     }`
     GM_addStyle(css) // GM_addStyle动态添加css
     btn.textContent = '免关注阅读全文'
